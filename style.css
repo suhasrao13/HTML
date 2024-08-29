@@ -50,7 +50,10 @@ video {
   height: auto;
 }
 header {
+  display: flex;
   position: sticky;
+  top: 0;
+  behavior: inherit;
 }
 
 .header {
